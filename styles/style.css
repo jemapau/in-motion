@@ -1,0 +1,40 @@
+
+html, body {
+	font-family:'Montserrat', sans-serif;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+nav ul li {
+	display: inline-block;
+	width: auto;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: #EE2365;
+	padding: 20px 25px;
+}
+
+nav ul li a:hover {
+	color: #6D103C;
+	text-decoration: underline;
+}
+
+.content-info {
+	display: block;
+	text-align: center;
+}
+
+form {
+	width: 400px;
+}
+
+button {
+	width: 40%;
+}
