@@ -3,6 +3,10 @@ html, body {
 	font-family:'Montserrat', sans-serif;
 }
 
+h1 {
+	color: #6D103C;
+}
+
 nav ul {
 	margin: 0;
 	padding: 0;
