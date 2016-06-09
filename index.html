@@ -3,8 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>In Motion</title>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 </head>
-<body>
+<body style="font-family:'Montserrat', sans-serif;">
 	<header>
 		<nav>
 			<li>
@@ -12,13 +13,31 @@
 			</li>
 			<li>
 				<a href="components/form.html">
-					Inscription Form
+					New user - Get in!
 				</a>
 			</li>
 		</nav>
 	</header>
 	<section class="content-info" style="display:block; text-align:center;">
-		<h1>Event information - Get in!</h1>
+		<h1>Event information - Login!</h1>
+       <center>
+           <form style="width:400px;">
+              <table>
+                <tr>
+                  <td><label for="Uname">Username</label></td>
+                  <td><input type="text" name="uname"></td>
+                </tr>
+                <tr>
+                  <td><label for="password">Password</label></td>
+                  <td><input type="password" name="pwd"></td>
+                </tr>
+              </table>
+              <br>
+              <br>
+              <button type="submit" style="width:40%;" value="enviar">Login</button>
+              <button type="reset" style="width:40%;" value="cancelar">Cancelar</button>
+           </form>
+          </center>
 	</section>
 </body>
 </html>
