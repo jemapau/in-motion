@@ -45,6 +45,10 @@ form input {
 	margin-left: 10px;
 }
 
+form select {
+	margin-left: 10px;
+}
+
 button {
 	width: 40%;
 	border: 0px;
