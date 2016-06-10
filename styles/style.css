@@ -1,6 +1,7 @@
 
 html, body {
 	font-family:'Montserrat', sans-serif;
+	font-size: 12px;
 }
 
 h1 {
@@ -54,7 +55,7 @@ button {
 	border: 0px;
 	background: #EE2365;
 	color: white;
-	padding: 10px;
+	padding: 5px;
 	cursor: pointer;
 }
 
